@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .section {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+}
+
+.container .section:nth-child(1) {
+  background: url(https://i.pinimg.com/originals/63/3d/e9/633de91656d59b4f8d8883ee31b77bec.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(2) {
+  background: url(https://i.pinimg.com/originals/0b/f6/ad/0bf6ad358ea4f3ff078683499acb1b82.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(3) {
+  background: url(https://images.pond5.com/people-city-urban-lifestyle-background-footage-061371246_prevstill.jpeg);
+  background-size: cover;
+}
+.container .section:nth-child(4) {
+  background: url(https://i.pinimg.com/originals/ac/83/24/ac8324dcb504c6ce06c247d65cf74544.jpg);
+  background-size: cover;
+}
+.container .section:nth-child(5) {
+  background: url(https://images.pond5.com/people-city-urban-lifestyle-background-footage-061371266_prevstill.jpeg);
+  background-size: cover;
+}
